@@ -17,7 +17,7 @@ export default function App() {
       <Wrapper
         style={{
           backgroundColor: "blue", // Overrides
-          borderColor: "blue", // Does not overrides!
+          borderColor: "yellow", // Does not overrides!
           borderWidth: 10, // Does not overrides!
           padding: 0,
         }}
@@ -30,7 +30,7 @@ export default function App() {
           styles.block,
           {
             backgroundColor: "blue",
-            borderColor: "blue",
+            borderColor: "yellow",
             padding: 0,
           },
         ]}
