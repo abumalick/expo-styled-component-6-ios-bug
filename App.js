@@ -18,6 +18,7 @@ export default function App() {
         style={{
           backgroundColor: "blue", // Overrides
           borderColor: "blue", // Does not overrides!
+          borderWidth: 10, // Does not overrides!
           padding: 0,
         }}
       >
