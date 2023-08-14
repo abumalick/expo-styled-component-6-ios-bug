@@ -5,6 +5,7 @@ import styled from "styled-components/native";
 const Wrapper = styled.View`
   background-color: red;
   border-color: red;
+  padding: 10px;
   border-width: 3px;
   width: 100px;
   height: 100px;
@@ -17,6 +18,7 @@ export default function App() {
         style={{
           backgroundColor: "blue", // Overrides
           borderColor: "blue", // Does not overrides!
+          padding: 0,
         }}
       >
         <Text>Styled component</Text>
@@ -26,8 +28,9 @@ export default function App() {
         style={[
           styles.block,
           {
-            borderColor: "blue",
             backgroundColor: "blue",
+            borderColor: "blue",
+            padding: 0,
           },
         ]}
       >
@@ -48,6 +51,7 @@ const styles = StyleSheet.create({
   block: {
     backgroundColor: "red",
     borderColor: "red",
+    padding: 10,
     borderWidth: 3,
     width: 100,
     height: 100,
